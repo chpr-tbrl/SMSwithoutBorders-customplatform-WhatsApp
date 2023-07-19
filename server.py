@@ -17,7 +17,7 @@ app.register_blueprint(blueprint=v1)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="SMSWithoutBorders Custom Platform WhatsApp"
+        description="CHPR WhatsApp"
     )
     parser.add_argument(
         "-l", "--logs", default="info", help="Set server log level (default = INFO)"

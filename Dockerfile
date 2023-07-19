@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 FROM python:3.9 as base
-WORKDIR /smswithoutborders-customplatform-whatsapp
+WORKDIR /chpr-whatsapp
 
 RUN apt-get update
 RUN apt-get install build-essential apache2 apache2-dev python3-dev default-libmysqlclient-dev -y
